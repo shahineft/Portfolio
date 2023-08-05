@@ -51,7 +51,7 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> Spring Framework, JPA, Hibernate, Rest, JavaFX, and Hibernate.
+                                <b className="purple"> Spring Framework, JPA, Hibernate, Rest, JUnit and JavaFX.
                                 </b>
                             </i>
                         </p>
