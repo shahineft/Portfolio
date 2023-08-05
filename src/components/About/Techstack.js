@@ -1,23 +1,27 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
-import {CgCPlusPlus} from "react-icons/cg";
 import {
-    DiJavascript1,
+    CgCPlusPlus
+} from "react-icons/cg";
+
+import {
     DiReact,
-    DiNodejs,
-    DiMongodb,
     DiPython,
     DiGit,
     DiJava,
-    DiMysql, DiRedhat,
+    DiMysql,
+    DiRedhat,
 } from "react-icons/di";
+
 import {
     SiNextdotjs,
-    SiSolidity,
     SiPostgresql,
-    SiOracle, SiUbuntu, SiPowershell,
+    SiOracle, SiUbuntu, SiPowershell, SiSpringboot
 } from "react-icons/si";
-import {TbBrandGolang} from "react-icons/tb";
+
+import {
+    TbBrandGolang
+} from "react-icons/tb";
 
 function Techstack() {
     return (
@@ -60,6 +64,9 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiJava/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSpringboot/>
             </Col>
         </Row>
     );

@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
 } from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 
@@ -53,7 +51,8 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> Spring Framework ,JUnit ,JPA ,JavaFX, and Hibernate.</b>
+                                <b className="purple"> Spring Framework, JPA, Hibernate, Rest, JavaFX, and Hibernate.
+                                </b>
                             </i>
                         </p>
                     </Col>
