@@ -16,7 +16,7 @@ import {
 import {
     SiNextdotjs,
     SiPostgresql,
-    SiOracle, SiUbuntu, SiPowershell, SiSpringboot
+    SiOracle, SiUbuntu, SiPowershell, SiSpringboot, SiJavascript,
 } from "react-icons/si";
 
 import {
@@ -64,6 +64,9 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiJava/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiJavascript/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiSpringboot/>
